@@ -1,0 +1,105 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+small {
+  font-size: 15px;
+  color: #585757;
+}
+
+main h2 {
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+main h5 {
+  padding: 10px;
+}
+
+main h6 {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+main p {
+  padding: 10px;
+}
+
+aside {
+  border-left: 1px solid #cecece;
+}
+
+aside div {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+aside h3 {
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 15px;
+}
+
+footer {
+  border-top: 1px solid #cecece;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  padding: 15px;
+  text-align: right;
+}
+
+i {
+  color: #303030;
+  margin-right: 8px;
+}
+
+a {
+  color: #71a9cc;
+}
+
+a:hover {
+  color: #4e758d;
+}
+
+.navbar-brand img {
+  width: 35px;
+}
+
+#header {
+  padding: 20px;
+}
+
+#ui-design img {
+  width: 300px;
+  padding: 30px;
+  margin-left: 2vw;
+}
+
+#ui-design figcaption {
+  text-align: center;
+  font-size: 15px;
+  color: #818181;
+}
+
+#site-summary p {
+  font-size: 15px;
+}
+
+#site-summary img {
+  width: 320px;
+}
+
+#supplemental-resources ul {
+  padding: 0px;
+  list-style: none;
+}
+
+@media (max-width: 767px) {
+  aside {
+    border-left: 0px;
+    border-top: 1px solid #cecece;
+  }
+}
